@@ -9,9 +9,9 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet(timeString){
-  let [hour, ] = timeString.split(separator=":");
+  // let [hour, ] = timeString.split(separator=":");
   let greeting;
-  hour = parseInt(hour);
+  const hour = parseInt(timeString,10);
   
   if(hour < 12){
     greeting = "Good Morning";  
