@@ -27,5 +27,5 @@ function greet(timeString){
 /* Write your implementation of displayMessage() */
 function displayMessage(message){
  let greeting = document.querySelector('h1#greeting');
- greeting.innerHTML = message;
+ greeting.innerText = message;
 }
