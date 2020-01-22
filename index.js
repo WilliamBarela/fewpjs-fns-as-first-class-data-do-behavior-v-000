@@ -28,5 +28,5 @@ function greet(timeString){
 function displayMessage(message){
  // let greeting = document.querySelector('h1#greeting');
  // greeting.innerHTML = message;
- document.getElementById("greeting").innerTe
+ document.getElementById("greeting").innerText(message);
 }
